@@ -9,6 +9,7 @@ public class OopJavaUtil {
         int a = sc.nextInt();
         long result = OopJava.getFactorial(a);
         System.err.println(a+"! = " + result);
+        System.err.println(6+"! = " + OopJava.getFactorial(6));
     }
 
 }
